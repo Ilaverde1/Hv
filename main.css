@@ -1,0 +1,133 @@
+body{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient( to left, #E5DCC5 5%,#003844)  ;
+}
+header {
+    background: #003844 ;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 50%;
+    height:10%;
+}
+
+.nombre{
+    position: absolute;
+    right: 0%;
+    width: 80%; 
+    height: 90%;
+    background:#006C67;
+}
+
+.p-1{
+    font-family:'Oswald', sans-serif;;
+    font-size: 120%;    
+    color: #E5DCC5;
+    text-shadow: 5px 5px 5px #003844
+}
+.foto {
+    position: relative;
+    top: 5%;
+    left: 20%;
+    width: 55%;
+    height: 35%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+h2{
+    position: relative;
+    top: 6%;
+    text-align: center;
+
+}
+
+.infoh2{
+    position: relative;
+    top: -10%;
+    text-align: center;
+
+}
+.imgdatos{
+    position: absolute;
+    left: 7%;
+    width: 7%;
+    height: 5%;
+    top: 58%;
+    border-radius: 100%;
+}
+.imgdatos1{
+    position: absolute;
+    left: 7%;
+    width: 7%;
+    height: 5%;
+    top: 66%;
+    border-radius: 100%;
+}
+.imgdatos2{
+    position: absolute;
+    left: 7%;
+    width: 7%;
+    height: 5%;
+    top: 74%;
+    border-radius: 100%;
+}
+.info{
+    position: absolute;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+    background: #003844;
+}
+aside {
+    position: absolute;
+    top: 100%;
+    width: 25%;
+    height: 100%;
+    background: #003844;
+}
+.datos{
+    position: absolute;
+    font-family:'Oswald', sans-serif;
+    font-size: larger;
+    left: 20%;
+    top: 55%;
+    color: #E5DCC5;
+}
+.dato2{
+    list-style: square;
+    position: relative;
+    font-family:'Oswald', sans-serif;
+    font-size: larger;
+    left: 20%;
+    top: 20%;
+    color: #E5DCC5;
+}
+.infotitle{
+    width: auto;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    font-size: x-large;
+    color: #FFB100;
+    text-shadow: 1px 1px 1px #E5DCC5;
+}
+.habilidades{
+    position: absolute;
+    top: 0%;
+}
+article{
+    position: absolute;
+    width: 70%;
+    left: 28%;
+    top: 40%;
+}
+article h2{
+    background-color: #003844;
+}
+article p{
+    position: absolute;
+    font-family:'Oswald', sans-serif;
+    font-size:large;
+    color: #003844;
+}
